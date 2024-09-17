@@ -3,7 +3,7 @@ import {formatCurrency} from '../scripts/utils/money.js';
 console.log('Test Suite : Foramtcurrency');
 
 
-console.log('convet cents into dollars');
+console.log('convert cents into dollars');
 
 if(formatCurrency(2095) === '20.95'){
     console.log('passed');
